@@ -1,4 +1,4 @@
-# \<DesafioFrontend />
+# \<DesafioFrontend Angular />
 
 **Objetivo:**
 Implementar uma aplicação para gerenciar os candidatos que estão em processo seletivo na empresa XYZ. Essa aplicação necessita ser executada nos navegadores mais recentes do mercado.
@@ -36,20 +36,19 @@ O sistema deve seguir o layout proposto, com isso as funcionalidades a serem des
 * Utilização de Rotas para navegação;
 * Ao navegar entre as rotas, as informações devem ser mantidas e não pode haver refresh da listagem;
 * A busca deverá ser executada na listagem atual;
-* (Desejável/Bônus) Gerenciamento de estado;
 * (Desejável/Bônus) Paginação;
 
 
 **Nível Pleno**
 * Todos os requisitos do nível anterior;
+* Utilizar lazy loading na navegação das rotas;
 * Paginação númerada;
-* Armazenar todas as informações no estado utilizando a arquitetura Flux (Redux, Vuex e etc);
+* Armazenar todas as informações utilizando algum gerenciamento de estado.
 * Ao navegar nos filtros laterais, todas as informações devem já estar no estado;
 * Ao pesquisar, deverá ser armazenado no estado todas as pesquisas realizadas na sessão atual;
-* Configurar eslint;
+* Configurar tslint;
+* Testes unitários;
 * (Desejável/Bônus) Microinterações na interface;
-* (Desejável/Bônus) Testes unitários;
-* (Desejável/Bônus) Utilizar algum bundle size (Webpack, Rollup ou Parcel);
 
 
 **Nível Senior**
@@ -59,22 +58,19 @@ O sistema deve seguir o layout proposto, com isso as funcionalidades a serem des
 * Testes unitários (mínimo de 70% de coverage);
 * Execução dos testes unitários no build do projeto;
 * Utilizar ferramenta para internacionalização (criar bundle de linguagem i18n);
-* Utilizar algum bundle size (Webpack, Rollup ou Parcel);
 * Utilizar alguma metodologia para CSS (BEM, SMACSS, OOCSS, ATOMIC CSS, DRY CSS);
 * (Desejável/Bônus) Realizar testes de snapshot;
 * (Desejável/Bônus) Apresentação do coverage dos testes unitários;
-* (Desejável/Bônus) Criar o Story Book dos Components;
-* (Desejável/Bônus) Separar Dumb Components e publicá-los no NPM;
-* (Desejável/Bônus) CSS in JS
+* (Desejável/Bônus) Separar Dumb Components;
 
 ### ** Desejável *** ###
 * A aplicação deve ser responsiva (mobile, tablet, desktop);
-* Publicar o projeto em alguma plataforma (Heroku, Wedeploy, etc), afim de ser possível visualizar através de um link;
+* Publicar o projeto em alguma plataforma (Heroku, Wedeploy, Firebase, etc), afim de ser possível visualizar através de um link; (Obs: O link deve ser utilizado o build de produção)
 
 ### **Especificações Gerais** ###
-* Utilizar React, Vue ou Angular;
+* Utilizar Angular;
 * Utilizar pré-processador de CSS (Fique a vontade para usar alguma lib/framework css);
 * ECMAScript 6;
 * Flexbox;
-* Documentar, no mínimo, como executar o projeto;
 * Armazenar o código fonte no Github;
+* Documentar no readme.md como executar o projeto;
